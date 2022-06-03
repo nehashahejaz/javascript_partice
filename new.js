@@ -271,6 +271,112 @@
 // occurrences of word “the” in given string.
 
 
-var s ="The quick brown fox jumps over the lazy dog";
-var countstring= s.Equals('the');
-document.write(countstring);
+// var s ="The quick brown fox jumps over the lazy dog";
+// var countstring= s.Equals('the');
+// document.write(countstring);
+//▬▬▬▬▬▬▬▬▬chapter no 26 to 30▬▬▬▬▬▬▬▬▬
+
+// qno1:Write a program that takes a positive integer from user &
+// display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+
+// var number = prompt("enter postive number");
+// var roun= Math.round(number);
+// var floor= Math.floor(number);
+// var ceil= Math.ceil(number);
+// document.write("round is "+roun+"<br>");
+// document.write("floor is "+floor+"<br>");
+// document.write("Ceil is "+ceil+"<br>");
+
+
+
+// qno2:Write a program that takes a negative floating point
+// number from user & display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+
+// var number = prompt("enter negtive number");
+//  var roun= Math.round(number);
+//  var floor= Math.floor(number);
+//  var ceil= Math.ceil(number);
+//  document.write("round is "+roun+"<br>");
+//   document.write("floor is "+floor+"<br>");
+//  document.write("Ceil is "+ceil+"<br>");
+
+
+// qno3:Write a program that displays the absolute value of a
+// number.
+// E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+
+// var num = prompt("enter  number");
+
+// var aboulateno = Math.abs(num);
+// document.write(". absolute value is "+aboulateno+"<br>");
+
+
+// qn4:Write a program that simulates a dice using random()
+// method of JS Math class. Display the value of dice in your
+// browser.:
+
+// var deice= Math.random()*9;
+// var roun = Math.round(deice)
+// document.write("your deice number is " + roun)
+
+
+// qno5:Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser
+
+//  var deice= Math.random()*2;
+//  var roun = Math.round(deice)
+
+//  if(roun == 1){
+//     document.write("Random coin value is Head "  );
+//  }
+//  else{
+//     document.write("Random coin value is Tails  "  ); 
+//  }
+
+// QNO6:Write a program that shows a random number between 1
+// and 100 in your browser.
+
+// var no= Math.random()*100;
+//   var roun = Math.round(no)
+//   document.write("Random number between 1 and 100  is :"+roun)
+
+// qno7:Write a program that asks the user about his weight. Parse
+// the user input and display his weight in your browser.
+// Possible user inputs can be:
+// a. 50
+// b. 50kgs
+// c. 50.2kgs
+// d. 50.2kilograms
+
+// var a = prompt("enter your weight in killograms")
+// var c= parseFloat(a)
+// document.write("the weight of user is "+c+"killograms")
+
+
+// qno8:Write a program that stores a random secret number from
+// 1 to 10 in a variable. Ask the user to input a number
+// between 1 and 10. If the user input equals the secret
+// number, congratulate the user.
+
+// var secret= 6;
+// var input= prompt("guess the no between 1 to 10 ");
+// if( input == secret);
+// {
+//     alert(" congratulate the user the serect no is " +secret);
+
+// }
+// else{
+//     alert("sorry the user the serect no is " +secret);
+// }
+
