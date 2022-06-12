@@ -128,7 +128,7 @@
 // qno8:Write a program that creates a Date object for the last day
 // of the last month of 2020 and assigns it to variable named
 // laterDate.
-// var month = 11; // January
+// var month = 11; // dec
 // var laterdate = new Date(2022, month + 1, 0);
 // document.write("later date"+laterdate);
 
